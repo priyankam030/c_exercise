@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     printf("size of char %ld byte\n", sizeof(char));
     printf("size of int %ld byte\n", sizeof(int));
@@ -10,5 +10,4 @@ int main()
     printf("size of double %ld byte\n", sizeof(double));   
     printf("size of sizeof() %ld byte\n", sizeof(sizeof(int)));
 
-    return 0;
 }
