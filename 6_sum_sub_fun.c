@@ -1,23 +1,7 @@
 #include <stdio.h>
 
-// int sum_number(int a, int b);
-// int sub_number(int a, int b);
-
-int sum_number(int a, int b)
-{ 
-    int result = a + b;
-
-    return result;
-}
-
-
-int sub_number(int a, int b)
-{
-    int result = a - b;
-    return result;
-
-}
-
+int sum_number(int a, int b);
+int sub_number(int a, int b);
 
 
 int main()
