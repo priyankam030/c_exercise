@@ -20,7 +20,7 @@ int main()
     }
     if(i==n)
     {
-        printf("number is zero\n");
+        printf("number is zero\ `n");
     }
 
 
