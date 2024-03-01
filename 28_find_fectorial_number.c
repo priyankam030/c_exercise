@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdint.h>
+
 
 int main()
 {   
     int i = 0;
-    uint64_t result = 1;
+    int result = 1;
     int facto  = 0;
 
         printf("Enter a number: ");
@@ -17,10 +17,7 @@ int main()
         result = result * i;
      
     }
-       printf("Answer is %ld\n" , result);
+       printf("Answer is %d\n" , result);
   
-
-
-
     return 0;
 }
